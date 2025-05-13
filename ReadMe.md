@@ -1,16 +1,17 @@
-# Sistema de Gerenciamento de Produtos (Java)
+# Gerenciador de Produtos em Java 
 
-## Requisitos
-- Java 11+
+Este é um projeto simples em Java para gerenciamento de produtos. Foi desenvolvido com o objetivo de praticar conceitos de programação orientada a objetos, como classes, atributos, métodos e listas.
 
-## Como Executar
-1. Compile os arquivos com:
-   ```sh
-   javac modelo/*.java consoleapp/usecase/*.java
-   ```
+## Funcionalidades
 
-2. Crie uma classe main ou use testes para rodar o serviço.
+- Adicionar produtos
+- Listar produtos
+- Buscar produto por nome ou ID
+- Atualizar informações de um produto
+- Remover produtos
 
-## Estrutura
-- `modelo/Produto.java`: entidade principal.
-- `consoleapp/usecase/`: lógica da aplicação, incluindo interfaces, implementação do serviço e repositório em memória.
+## Tecnologias utilizadas
+
+- Java 17 ou superior
+- IDE de sua preferência (Eclipse, IntelliJ, VS Code etc.)
+
